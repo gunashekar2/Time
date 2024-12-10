@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time in Different Time Zones</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <img id="bg" src="image.png">
+    <img id="clock" src="bg.png">
+   
+    <div id="container">
+        <h1>Time in Different TimeZones</h1>
+        <div id="card1" class="cards">
+            <h2>Your Local Time</h3>
+            <h1 id="local-time"></h1>
+             
+            <p id="local-date"></p>
+        </div>
+        <div id="card2"  class="cards">
+            <h2>Selected Time Zone</h3>
+            <select id="dropdown-zones">
+                <option value="America/New_York">Newyork</option>
+                <option value="Australia/Sydney">Sydney</option>
+                <option value="Europe/London">London</option>
+                <option value="Asia/Tokyo">Tokyo</option>
+                <option value="America/Los_Angeles">Los Angeles</option>
+            </select>
+            <h1 id="selected-time">3:53:49 PM</h1>
+            <p id="selected-date">7 December 2024</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>

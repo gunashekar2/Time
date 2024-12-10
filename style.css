@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+   
+    background-color: #F7F8F9;
+    
+
+}
+#bg {
+    position: absolute;
+    z-index: -8;
+    top: 0;
+
+    height: 100vh;
+}
+#clock {
+    display: none;
+    height: 370px;
+    border-radius: 15px;
+
+}
+
+h1 {
+    /* text-align: center; */
+    color: #007DFF;
+}
+#container {
+    width: 500px;
+   margin: auto;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{ 
+    border-radius: 5px;
+    background-color: white;
+    width: 70%;
+    border: none;
+    margin-bottom: 15px;
+    box-shadow:2px 2px 15px black;
+}
+.cards h2 {
+    color: #0ccef2;
+    
+}
+select {
+    background-color: #E8ECEF;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    height: 50px;
+    width:90%;
+    padding-left:15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+select:hover {
+    border: 1px solid #007DFF;
+}   
+#card2 h1 {
+    color: #008959;
+}
+p {
+    color:#9ea1a5;
+}
+
+
